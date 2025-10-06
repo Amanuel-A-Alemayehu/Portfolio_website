@@ -1,0 +1,91 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <title>Portfolio — Amanuel A. Alemayehu</title>
+  <meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<meta name="description" content="Personal CV website: skills, experience, portfolio and contact." />
+<meta name="author" content="Amanuel A. Alemayehu" />
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&family=Source+Serif+4:opsz,wght@8..60,600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css" />
+<link rel="icon" href="images/favicon.png">
+
+</head>
+<body>
+  <header class="site-header">
+  <div class="container header-inner">
+    <a class="brand" href="index.html" aria-label="Home">
+      <span class="logo" aria-hidden="true">CV</span>
+      <span class="brand-text">Amanuel A. Alemayehu</span>
+    </a>
+    <nav aria-label="Primary">
+      <ul class="nav-list">
+        <li><a class="nav-link" href="index.html">Home</a></li>
+        <li><a class="nav-link" href="about.html">About</a></li>
+        <li><a class="nav-link" href="portfolio.html">Portfolio</a></li>
+        <li><a class="nav-link" href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
+
+  <main id="content" class="container">
+    <section aria-labelledby="work-title">
+      <h1 id="work-title">Selected Work</h1>
+      <p class="lead">A few projects that show my approach to clean UI, performance, and maintainability.</p>
+
+      <div class="portfolio-grid">
+        <article class="project-card">
+          <img src="images/portfolio.avif" alt="Screenshot of Project One interface" />
+          <div class="project-body">
+            <h2>E‑commerce Product Page</h2>
+            <p>Responsive React UI with search & filters; built with semantic HTML and accessible components.</p>
+            <ul>
+              <li>React + Tailwind</li>
+              <li>Debounced search</li>
+              <li>Core Web Vitals A</li>
+            </ul>
+            <p><a class="btn btn-ghost" href="https://example.com" target="_blank" rel="noopener">Live Demo</a></p>
+          </div>
+        </article>
+
+        <article class="project-card">
+          <img src="images/porto2.webp" alt="Screenshot of Project Two interface" />
+          <div class="project-body">
+            <h2>REST API with Auth</h2>
+            <p>Express API with JWT auth and pagination. Structured controllers and middleware.</p>
+            <ul>
+              <li>Node.js + Express</li>
+              <li>JWT authentication</li>
+              <li>MongoDB</li>
+            </ul>
+            <p><a class="btn btn-ghost" href="https://github.com/" target="_blank" rel="noopener">Code on GitHub</a></p>
+          </div>
+        </article>
+
+        <article class="project-card">
+          <img src="images/porto3.webp" alt="Screenshot of Project Three interface" />
+          <div class="project-body">
+            <h2>WordPress Custom Theme</h2>
+            <p>Lightweight theme with custom post types and hooks, optimized for speed.</p>
+            <ul>
+              <li>WordPress + PHP</li>
+              <li>Accessible menus</li>
+              <li>90+ Lighthouse scores</li>
+            </ul>
+            <p><a class="btn btn-ghost" href="https://example.com" target="_blank" rel="noopener">Live Demo</a></p>
+          </div>
+        </article>
+      </div>
+    </section>
+  </main>
+  <footer class="site-footer">
+  <div class="container footer-inner">
+    <p>&copy; <span id="year">2025</span> Amanuel A. Alemayehu All right received— <a href="https://www.linkedin.com/" target="_blank" rel="noopener">LinkedIn</a> · <a href="https://github.com/" target="_blank" rel="noopener">GitHub</a></p>
+  </div>
+</footer>
+
+</body>
+</html>

@@ -1,0 +1,135 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <title>Amanuel A. Alemayehu — Web Developer (React, Tailwind CSS, Node.js)</title>
+  <meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<meta name="description" content="Personal CV website: skills, experience, portfolio and contact." />
+<meta name="author" content="Amanuel A. Alemayehu" />
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="style.css" integrity="sha512-u3l3d1pvu/NhAl3QYB0d1hkmj5nZtZkWZTRk+zYb1OKd+3c8xl0tVsgZqzE6Q8iM3HqT9f1K0Tnd0vT1QgH6Bw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&family=Source+Serif+4:opsz,wght@8..60,600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css" />
+<link rel="icon" href="images/favicon.png">
+<link rel="stylesheet" href="style.css" integrity="sha512-u3l3d1pvu/NhAl3QYB0d1hkmj5nZtZkWZTRk+zYb1OKd+3c8xl0tVsgZqzE6Q8iM3HqT9f1K0Tnd0vT1QgH6Bw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+
+
+</head>
+<body>
+  <header class="site-header">
+  <div class="container header-inner">
+    <a class="brand" href="index.html" aria-label="Home">
+      <span class="logo" aria-hidden="true">CV</span>
+      <span class="brand-text">Amanuel A. Alemayehu</span>
+    </a>
+    <nav aria-label="Primary">
+      <ul class="nav-list">
+        <li><a class="nav-link" href="index.html">Home</a></li>
+        <li><a class="nav-link" href="about.html">About</a></li>
+        <li><a class="nav-link" href="portfolio.html">Portfolio</a></li>
+        <li><a class="nav-link" href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
+
+  <main id="content" class="container">
+    <section class="hero grid-2" aria-labelledby="intro-title">
+      <div>
+        <h1 id="intro-title">Hi, I’m <span class="accent">Amanuel A. Alemayheu</span> — Full‑Stack Web Developer</h1>
+        <p class="lead">I build fast, accessible web apps with <strong>React</strong>, <strong>Tailwind CSS</strong> and <strong>Node.js</strong>. I love clean UI, maintainable code, and on‑time delivery.</p>
+        <ul class="key-points">
+          <li>Responsive, mobile‑first pages</li>
+          <li>REST APIs with Express</li>
+          <li>Performance & SEO optimizations</li>
+        </ul>
+        <div class="cta-row">
+          <a class="btn" href="portfolio.html">See my work</a>
+          <a class="btn btn-ghost" href="contact.html">Contact me</a>
+        </div>
+      </div>
+      <figure class="profile-figure">
+        <img src="images/Profilephoto.JPG" alt="Portrait of Your Amanuel A." class="profile" />
+        <!-- <figcaption>  Based in Ethiopia — UTC+3</figcaption> -->
+        <figcaption>
+  <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" fill="currentColor" viewBox="0 0 384 512" style="margin-right:6px;">
+    <path d="M168 0C75.1 0 0 75.1 0 168c0 87.9 148.7 293.1 168 317.4c19.3-24.3 168-229.5 168-317.4C336 75.1 260.9 0 168 0zm0 240c-39.8 0-72-32.2-72-72s32.2-72 72-72s72 32.2 72 72s-32.2 72-72 72z"/>
+  </svg>
+  Based in Addis Ababa,  Ethiopia — UTC+3
+</figcaption>
+
+
+      </figure>
+    </section>
+
+    <section class="skills" aria-labelledby="skills-title">
+      <h2 id="skills-title">Skills</h2>
+      <div class="skills-grid">
+        <article class="card">
+          <h3>Frontend</h3>
+          <ul>
+            <li>React (SPA, hooks)</li>
+            <li>HTML5, CSS3, Tailwind</li>
+            <li>Accessibility (WCAG basics)</li>
+          </ul>
+        </article>
+        <article class="card">
+          <h3>Backend</h3>
+          <ul>
+            <li>Node.js, Express</li>
+            <li>RESTful APIs</li>
+            <li>MongoDB / PostgreSQL basics</li>
+          </ul>
+        </article>
+        <article class="card">
+          <h3>Tools</h3>
+          <ol>
+            <li>Git & GitHub</li>
+            <li>Vite / Webpack</li>
+            <li>Figma to dev handoff</li>
+          </ol>
+        </article>
+      </div>
+    </section>
+
+    <section class="education" aria-labelledby="edu-title">
+      <h2 id="edu-title">Education</h2>
+      <div class="table-wrap">
+        <table>
+          <caption class="visually-hidden">Education and certifications</caption>
+          <thead>
+            <tr>
+              <th>Institution</th>
+              <th>Program</th>
+              <th>Year</th>
+              <th>Notes</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Hilcoe School Of Computer Scinece and Technology</td>
+              <td>B.Sc. in Software Engineering</td>
+              <td>2022–2026</td>
+              <td>Dean’s list ( 1 year)</td>
+            </tr>
+            <tr>
+              <td>Online Coursera</td>
+              <td>Google Cybersecurity (in‑progress)</td>
+              <td>2025</td>
+              <td>Foundations, network security</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </section>
+  </main>
+  <footer class="site-footer">
+  <div class="container footer-inner">
+    <p>&copy; <span id="year">2025</span> Amanuel A. Alemayehu All right received — <a href="https://www.linkedin.com/in/amanuel-alemayehu-4745b6340 " target="_blank" rel="noopener">LinkedIn</a> · <a href="https://github.com/" target="_blank" rel="noopener">GitHub</a></p>
+  </div>
+</footer>
+
+</body>
+</html>
